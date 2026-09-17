@@ -1,0 +1,23 @@
+name: 使用问题
+description: 报告安装、启用或地图下载问题
+body:
+  - type: textarea
+    id: versions
+    attributes:
+      label: 版本和环境
+      description: 填写 Android、LSPosed、两步路和本模块的版本，以及 root 方案。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 操作步骤与现象
+      description: 是否已启用模块、勾选两步路作用域、强制停止后重开？在线地图和离线下载分别有什么表现？
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 可选的模块日志
+      description: 只粘贴含 [WindyFix] 的相关日志；不要上传完整手机日志、账号信息或地图数据库。
+      render: text

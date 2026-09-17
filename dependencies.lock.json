@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "url": "https://dl.google.com/android/repository/build-tools_r35_linux.zip",
+      "path": ".tools/build-tools_r35_linux.zip",
+      "sha256": "bd3a4966912eb8b30ed0d00b0cda6b6543b949d5ffe00bea54c04c81e1561d88",
+      "extract_to": ".tools/android"
+    },
+    {
+      "url": "https://dl.google.com/android/repository/platform-35-ext15_r01.zip",
+      "path": ".tools/platform-35-ext15_r01.zip",
+      "sha256": "a93712aedd4f851d9cf1f7281f7c4fe5581ce03a9df37ffc8c53a487eadf311f",
+      "extract_to": ".tools/android"
+    },
+    {
+      "url": "https://api.xposed.info/de/robv/android/xposed/api/82/api-82.jar",
+      "path": ".tools/xposed-api-82.jar",
+      "sha256": "f48c635f1c7469fdec0e00ad2ea0b7a6b2f5b55065784a35b7ca3a84615e8e25"
+    },
+    {
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar",
+      "path": ".tools/test-libs/okhttp.jar",
+      "sha256": "b1050081b14bb7a3a7e55a4d3ef01b5dcfabc453b4573a4fc019767191d5f4e0"
+    },
+    {
+      "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar",
+      "path": ".tools/test-libs/okio-jvm.jar",
+      "sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"
+    },
+    {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar",
+      "path": ".tools/test-libs/kotlin-stdlib.jar",
+      "sha256": "55e989c512b80907799f854309f3bc7782c5b3d13932442d0379d5c472711504"
+    },
+    {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+      "path": ".tools/test-libs/annotations.jar",
+      "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+    }
+  ]
+}
